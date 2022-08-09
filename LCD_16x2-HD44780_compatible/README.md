@@ -42,5 +42,12 @@ When using the sample application (main.c and main.h files) with a microcontroll
 
     - in the "main.h" file, the preprocessor directive ' #include "stm32f4xx_hal.h" ' must be changed to ' #include "stm32f7xx_hal.h" '.
 
+------------------------------------------------------------------------
+Circuit Mounting:
+------
+
+In the "README.txt" file of the "Sample_application" subdirectory, there is a section ("Pins connections...") that explains how to interface the microcontroller pins with the LCD module pins. A possible mounting configuration is presented in the "main.c" file (and showed in README.txt). 
+
+
 
 Vinicius Calil, 2022/07/25
